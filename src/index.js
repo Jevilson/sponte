@@ -1,1 +1,5 @@
-export { default as getAlunos } from "./endpoints/GetAlunos.js";
+const getAlunos = require("./endpoints/GetAlunos");
+
+module.exports = {
+  getAlunos,
+};
