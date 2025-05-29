@@ -1,0 +1,28 @@
+{
+  "name": "sponte",
+  "version": "1.0.0",
+  "description": "O objetivo deste SDK é facilitar a integração com a API da Sponte Educacional, permitindo que desenvolvedores criem novas soluções de forma mais simples e eficiente. Ele abstrai requisições HTTP, converte automaticamente respostas em XML para JSON, e oferece uma interface organizada com todas as funcionalidades disponíveis na API oficial.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jevilson/sponte.git"
+  },
+  "keywords": [
+    "sponte",
+    "Sponte Educacional",
+    "API sponte",
+    "api.sponteeducacional.net.br",
+    "sponteeducacional",
+    "API Sponte Educacional"
+  ],
+  "author": "Jevilson",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "fast-xml-parser": "^5.2.3"
+  }
+}
