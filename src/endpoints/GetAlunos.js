@@ -1,7 +1,8 @@
-import api from "../api.js";
-import convertToJSON from "../utils/convertToJSON.js";
-import normalizeRetorno from "../utils/normalizeRetorno.js";
-import validateParams from "../utils/validators.js";
+const api = require("../api");
+const convertToJSON = require("../utils/convertToJSON");
+const normalizeRetorno = require("../utils/normalizeRetorno");
+const validateParams = require("../utils/validators");
+
 
 /**
  * Método visa consultar as informações de um ou vários alunos.
@@ -95,4 +96,4 @@ async function getAlunos({ nCodigoCliente, sToken, sParametrosBusca }) {
   }
 }
 
-export default getAlunos;
+module.exports =  getAlunos;

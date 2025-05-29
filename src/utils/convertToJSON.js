@@ -1,4 +1,4 @@
-import { XMLParser } from "fast-xml-parser";
+const { XMLParser } = require("fast-xml-parser");
 
 const options = {
   parseTagValue: false,     
@@ -9,5 +9,5 @@ function convertToJSON(data) {
   return parser.parse(data);
 }
 
-export default convertToJSON;
+module.exports =  convertToJSON;
 

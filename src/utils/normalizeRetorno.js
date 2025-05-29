@@ -3,4 +3,4 @@ const normalizeRetorno = (state) => {
   return dados;
 };
 
-export default normalizeRetorno
+module.exports =  normalizeRetorno

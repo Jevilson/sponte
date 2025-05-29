@@ -18,4 +18,4 @@ function validateParams(params, rules) {
 }
 
 
-export default validateParams
+module.exports =  validateParams

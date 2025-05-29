@@ -1,4 +1,4 @@
-import getAlunos from "../endpoints/GetAlunos.js";
+const getAlunos = require("../endpoints/GetAlunos");
 
 getAlunos({
   sToken: "",
