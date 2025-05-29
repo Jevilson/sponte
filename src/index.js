@@ -1,0 +1,1 @@
+export { default as getAlunos } from "./endpoints/GetAlunos.js";
